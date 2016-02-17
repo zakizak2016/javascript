@@ -19,6 +19,13 @@ var str = "Hello World!";
 var res = str.toLowerCase();
 // => hello world! !
 
+
+/* trim() */ 
+/* Remove whitespace from both sides of a string */
+var str = "       Hello World!        ";
+var res = (str.trim());
+// => Hello World!
+
 charAt()
 charCodeAt()
 
@@ -45,5 +52,5 @@ toString()
 
 
 
-trim()
+
 valueOf()
