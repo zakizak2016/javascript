@@ -69,7 +69,7 @@ var res = str.slice(1,5);
 
 
 /* SEARCHING -----------------------------------------------*/
-/* search() includes() match() indexOf() */
+/* search() includes() match() indexOf() lastIndexOf() */
 
 /* search() => search string index */
 var str = "Visit W3Schools! 3S";
@@ -91,6 +91,10 @@ var str = "Hello world, welcome to the universe.";
 var res = str.indexOf("welcome");
 // => 13
 
+/* lastIndexOf() => Search a string for the last occurrence of "planet"" */
+var str = "Hello planet earth, you are a great planet.";
+var res = str.lastIndexOf("planet");
+// => 36
 
 
 /* OTHERS  -----------------------------------------------*/
@@ -100,10 +104,9 @@ charCodeAt()
 endsWith()
 fromCharCode()
 
-indexOf()
-lastIndexOf()
+
 localeCompare()
-match()
+
 repeat()
 
 startsWith()
