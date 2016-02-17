@@ -83,7 +83,7 @@ var res = str.substring(1, 3);
 
 
 /* SEARCHING -----------------------------------------------*/
-/* search() includes() match() indexOf() lastIndexOf() */
+/* search() includes() match() indexOf() lastIndexOf()  charAt() */
 
 /* search() => search string index */
 var str = "Visit W3Schools! 3S";
@@ -110,9 +110,14 @@ var str = "Hello planet earth, you are a great planet.";
 var res = str.lastIndexOf("planet");
 // => 36
 
+/* charAt() => Return the primitive value of a string object */
+var str = "HELLO WORLD";
+var res = str.charAt(1);
+// => E
+
 
 /* OTHERS  -----------------------------------------------*/
-charAt()
+
 charCodeAt()
 
 endsWith()
