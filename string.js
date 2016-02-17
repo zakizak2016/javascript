@@ -1,8 +1,13 @@
-/* concat() => combine two or more string object */
-var str1 = "Hello ";
-var str2 = "world!";
-var res = str1.concat(str2);
-// => Hello words !
+/* BASIC FUNCTION -----------------------------------------------*/
+
+/* toString() => Return the value of a String object */
+var str = "Hello World!";
+var res = str.toString();
+// => Hello World!
+
+
+/* UPPERCASE LOWERCASE -----------------------------------------------*/
+/* toUpperCase() toLocaleUpperCase() str.toLowerCase() toLocaleLowerCase() */
 
 /* toUpperCase() => make capitalize */
 var str = "Hello World!";
@@ -25,16 +30,49 @@ var res = str.toLocaleLowerCase();
 // => hello world!
 
 
+
+
+
+/* MODIFING  -----------------------------------------------*/
+/* concat() split() */
+
+/* concat() => combine two or more string object */
+var str1 = "Hello ";
+var str2 = "world!";
+var res = str1.concat(str2);
+// => Hello words !
+
+/* split() => String to array */
+var str = "How are you doing today?";
+var res = str.split(" ");
+// => [ 'How', 'are', 'you', 'doing', 'today?' ]
+
+
+
+
+/* REPLACING -----------------------------------------------*/
+/* trim() replace() slice() */
+
 /* trim() => Remove whitespace from both sides of a string */
 var str = "       Hello World!        ";
 var res = (str.trim());
 // => Hello World!
 
 
-/* toString() => Return the value of a String object */
-var str = "Hello World!";
-var res = str.toString();
-// => Hello World!
+/* replace() => str_replace */
+var str = "Visit W3Schools!";
+var res = str.replace("W3Schools", "Microsoft");
+// => Visit Microsoft!
+
+/* slice() => Extract parts of a string */
+var str = "Hello world!";
+var res = str.slice(1,5);
+// => ello
+
+
+
+/* SEARCHING -----------------------------------------------*/
+/* search() includes() match() */
 
 /* search() => search string index */
 var str = "Visit W3Schools! 3S";
@@ -52,22 +90,10 @@ var res = str.match(/ain/g);
 // => [ 'ain', 'ain', 'ain' ]
 
 
-/* replace() => str_replace */
-var str = "Visit W3Schools!";
-var res = str.replace("W3Schools", "Microsoft");
-// => Visit Microsoft!
-
-/* slice() => Extract parts of a string */
-var str = "Hello world!";
-var res = str.slice(1,5);
-// => ello
-
-/* split() => String to array */
-var str = "How are you doing today?";
-var res = str.split(" ");
-// => [ 'How', 'are', 'you', 'doing', 'today?' ]
 
 
+
+/* OTHERS  -----------------------------------------------*/
 charAt()
 charCodeAt()
 
@@ -79,9 +105,6 @@ lastIndexOf()
 localeCompare()
 match()
 repeat()
-
-
-
 
 startsWith()
 substr()
