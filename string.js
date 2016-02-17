@@ -48,13 +48,12 @@ var res = str.split(" ");
 
 
 /* REPLACING -----------------------------------------------*/
-/* trim() replace() slice() */
+/* trim() replace() slice() substr() */
 
 /* trim() => Remove whitespace from both sides of a string */
 var str = "       Hello World!        ";
 var res = (str.trim());
 // => Hello World!
-
 
 /* replace() => str_replace */
 var str = "Visit W3Schools!";
@@ -64,6 +63,11 @@ var res = str.replace("W3Schools", "Microsoft");
 /* slice() => Extract parts of a string */
 var str = "Hello world!";
 var res = str.slice(1,5);
+// => ello
+
+/* substr() => Extract parts of a string */
+var str = "Hello world!";
+var res = str.substr(1, 4);
 // => ello
 
 
@@ -110,7 +114,7 @@ localeCompare()
 repeat()
 
 startsWith()
-substr()
+
 substring()
 
 
