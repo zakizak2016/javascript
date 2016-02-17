@@ -83,7 +83,7 @@ var res = str.substring(1, 3);
 
 
 /* SEARCHING -----------------------------------------------*/
-/* search() includes() match() indexOf() lastIndexOf()  charAt() charCodeAt() */
+/* search() includes() match() indexOf() lastIndexOf()  charAt() charCodeAt() startsWith() endsWith()*/
 
 /* search() => search string index */
 var str = "Visit W3Schools! 3S";
@@ -120,11 +120,21 @@ var str = "HELLO WORLD";
 var res = str.charCodeAt(0);
 // => 72
 
+/* startsWith() => Check if a string starts with "Hello" */
+var str = "Hello world, welcome to the universe.";
+var res = str.startsWith("Hello");
+// => true
+
+/* endsWith() => Check if a string ends with "universe." */
+var str = "Hello world, welcome to the universe.";
+var res = str.endsWith("universe.");
+// => true
+
 /* OTHERS  -----------------------------------------------*/
 
 charCodeAt()
 
-endsWith()
+
 fromCharCode()
 
 
@@ -132,5 +142,4 @@ localeCompare()
 
 repeat()
 
-startsWith()
 
