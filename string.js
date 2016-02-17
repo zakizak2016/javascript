@@ -13,6 +13,12 @@ var str = "Hello World!";
 var res = str.toUpperCase();
 // => HELLO WORLD!
 
+/* toLowerCase() */ 
+/* Convert the string to lowercase letters */
+var str = "Hello World!";
+var res = str.toLowerCase();
+// => hello world! !
+
 charAt()
 charCodeAt()
 
@@ -33,7 +39,7 @@ substr()
 substring()
 toLocaleLowerCase()
 toLocaleUpperCase()
-toLowerCase()
+
 toString()
 
 
