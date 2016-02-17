@@ -1,5 +1,4 @@
-charAt()
-charCodeAt()
+
 
 /* concat() */ 
 /* combine two or more string object */
@@ -8,9 +7,14 @@ var str2 = "world!";
 var res = str1.concat(str2);
 // => Hello words !
 
+/* toUpperCase() */ 
+/* make capitalize */
+var str = "Hello World!";
+var res = str.toUpperCase();
+// => HELLO WORLD!
 
-
-
+charAt()
+charCodeAt()
 
 endsWith()
 fromCharCode()
@@ -33,11 +37,7 @@ toLowerCase()
 toString()
 
 
-/* toUpperCase() */ 
-/* make capitalize */
-var str = "Hello World!";
-var res = str.toUpperCase();
-// => HELLO WORLD!
+
 
 trim()
 valueOf()
