@@ -26,6 +26,13 @@ var str = "       Hello World!        ";
 var res = (str.trim());
 // => Hello World!
 
+/* split() */
+/* String to array */
+var str = "How are you doing today?";
+var res = str.split(" ");
+// => [ 'How', 'are', 'you', 'doing', 'today?' ]
+
+
 charAt()
 charCodeAt()
 
@@ -40,7 +47,7 @@ repeat()
 replace()
 search()
 slice()
-split()
+
 startsWith()
 substr()
 substring()
