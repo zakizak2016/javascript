@@ -83,7 +83,7 @@ var res = str.substring(1, 3);
 
 
 /* SEARCHING -----------------------------------------------*/
-/* search() includes() match() indexOf() lastIndexOf()  charAt() charCodeAt() startsWith() endsWith()*/
+/* search() includes() match() indexOf() lastIndexOf()  charAt() charCodeAt() startsWith() endsWith() fromCharCode()*/
 
 /* search() => search string index */
 var str = "Visit W3Schools! 3S";
@@ -130,12 +130,13 @@ var str = "Hello world, welcome to the universe.";
 var res = str.endsWith("universe.");
 // => true
 
+/* fromCharCode() => Convert a Unicode number into a character */
+var res = String.fromCharCode(65);
+// => A
+
 /* OTHERS  -----------------------------------------------*/
 
-charCodeAt()
 
-
-fromCharCode()
 
 
 localeCompare()
