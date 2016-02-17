@@ -30,10 +30,6 @@ var str = "       Hello World!        ";
 var res = (str.trim());
 // => Hello World!
 
-/* split() => String to array */
-var str = "How are you doing today?";
-var res = str.split(" ");
-// => [ 'How', 'are', 'you', 'doing', 'today?' ]
 
 /* toString() => Return the value of a String object */
 var str = "Hello World!";
@@ -61,6 +57,16 @@ var str = "Visit W3Schools!";
 var res = str.replace("W3Schools", "Microsoft");
 // => Visit Microsoft!
 
+/* slice() => Extract parts of a string */
+var str = "Hello world!";
+var res = str.slice(1,5);
+// => ello
+
+/* split() => String to array */
+var str = "How are you doing today?";
+var res = str.split(" ");
+// => [ 'How', 'are', 'you', 'doing', 'today?' ]
+
 
 charAt()
 charCodeAt()
@@ -75,7 +81,7 @@ match()
 repeat()
 
 
-slice()
+
 
 startsWith()
 substr()
