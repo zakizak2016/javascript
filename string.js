@@ -5,6 +5,11 @@ var str = "Hello World!";
 var res = str.toString();
 // => Hello World!
 
+/* valueOf() => Return the primitive value of a string object */
+var str = "Hello World!";
+var res = str.valueOf();
+// => Hello World!
+
 
 /* UPPERCASE LOWERCASE -----------------------------------------------*/
 /* toUpperCase() toLocaleUpperCase() str.toLowerCase() toLocaleLowerCase() */
@@ -120,4 +125,3 @@ repeat()
 
 startsWith()
 
-valueOf()
