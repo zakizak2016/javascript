@@ -49,7 +49,15 @@ var n = str.search("3S");
 var str = "Hello world, welcome to the universe.";
 var res = str.includes("world");
 // => true
-console.log(res);
+
+/* match() => Search a string for "ain"*/
+var str = "The rain in SPAIN stays mainly in the plain"; 
+var res = str.match(/ain/g);
+// => [ 'ain', 'ain', 'ain' ]
+
+
+
+
 
 charAt()
 charCodeAt()
