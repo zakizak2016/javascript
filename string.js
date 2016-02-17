@@ -40,6 +40,11 @@ var str = "Hello World!";
 var res = str.toString();
 // => Hello World!
 
+/* search() => search string index */
+var str = "Visit W3Schools! 3S";
+var n = str.search("3S");
+// => 7
+
 charAt()
 charCodeAt()
 
@@ -52,7 +57,7 @@ localeCompare()
 match()
 repeat()
 replace()
-search()
+
 slice()
 
 startsWith()
