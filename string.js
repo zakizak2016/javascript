@@ -1,37 +1,29 @@
-
-
-/* concat() */ 
-/* combine two or more string object */
+/* concat() => combine two or more string object */
 var str1 = "Hello ";
 var str2 = "world!";
 var res = str1.concat(str2);
 // => Hello words !
 
-/* toUpperCase() */ 
-/* make capitalize */
+/* toUpperCase() => make capitalize */
 var str = "Hello World!";
 var res = str.toUpperCase();
 // => HELLO WORLD!
 
-/* toLowerCase() */ 
-/* Convert the string to lowercase letters */
+/* toLowerCase() => Convert the string to lowercase letters */
 var str = "Hello World!";
 var res = str.toLowerCase();
 // => hello world! !
 
 
-/* trim() */ 
-/* Remove whitespace from both sides of a string */
+/* trim() => Remove whitespace from both sides of a string */
 var str = "       Hello World!        ";
 var res = (str.trim());
 // => Hello World!
 
-/* split() */
-/* String to array */
+/* split() => String to array */
 var str = "How are you doing today?";
 var res = str.split(" ");
 // => [ 'How', 'are', 'you', 'doing', 'today?' ]
-
 
 charAt()
 charCodeAt()
