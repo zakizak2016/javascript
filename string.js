@@ -35,6 +35,11 @@ var str = "How are you doing today?";
 var res = str.split(" ");
 // => [ 'How', 'are', 'you', 'doing', 'today?' ]
 
+/* toString() => Return the value of a String object */
+var str = "Hello World!";
+var res = str.toString();
+// => Hello World!
+
 charAt()
 charCodeAt()
 
@@ -56,7 +61,7 @@ substring()
 
 
 
-toString()
+
 
 
 
