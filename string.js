@@ -48,7 +48,7 @@ var res = str.split(" ");
 
 
 /* REPLACING -----------------------------------------------*/
-/* trim() replace() slice() substr() */
+/* trim() replace() slice() substr() substring */
 
 /* trim() => Remove whitespace from both sides of a string */
 var str = "       Hello World!        ";
@@ -69,6 +69,11 @@ var res = str.slice(1,5);
 var str = "Hello world!";
 var res = str.substr(1, 4);
 // => ello
+
+/* substring() => Extract characters from a string */
+var str = "Hello world!";
+var res = str.substring(1, 3);
+// => el
 
 
 
@@ -114,15 +119,5 @@ localeCompare()
 repeat()
 
 startsWith()
-
-substring()
-
-
-
-
-
-
-
-
 
 valueOf()
