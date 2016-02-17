@@ -36,13 +36,18 @@ var res = str.toLocaleLowerCase();
 
 
 /* MODIFING  -----------------------------------------------*/
-/* concat() split() */
+/* concat()  repeat() split() */
 
 /* concat() => combine two or more string object */
 var str1 = "Hello ";
 var str2 = "world!";
 var res = str1.concat(str2);
 // => Hello words !
+
+/* repeat() => Make new string by copying a string twice */
+var str = "Hello world!";
+str.repeat(2);
+// => Hello world!Hello world!
 
 /* split() => String to array */
 var str = "How are you doing today?";
@@ -141,6 +146,5 @@ var res = String.fromCharCode(65);
 
 localeCompare()
 
-repeat()
 
 
