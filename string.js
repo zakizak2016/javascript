@@ -31,6 +31,13 @@ toLocaleLowerCase()
 toLocaleUpperCase()
 toLowerCase()
 toString()
-toUpperCase()
+
+
+/* toUpperCase() */ 
+/* make capitalize */
+var str = "Hello World!";
+var res = str.toUpperCase();
+// => HELLO WORLD!
+
 trim()
 valueOf()
