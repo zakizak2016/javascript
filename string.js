@@ -56,7 +56,10 @@ var res = str.match(/ain/g);
 // => [ 'ain', 'ain', 'ain' ]
 
 
-
+/* replace() => str_replace */
+var str = "Visit W3Schools!";
+var res = str.replace("W3Schools", "Microsoft");
+// => Visit Microsoft!
 
 
 charAt()
@@ -70,7 +73,7 @@ lastIndexOf()
 localeCompare()
 match()
 repeat()
-replace()
+
 
 slice()
 
