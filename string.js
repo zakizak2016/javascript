@@ -45,12 +45,18 @@ var str = "Visit W3Schools! 3S";
 var n = str.search("3S");
 // => 7
 
+/* includes() => Check if a string includes with "world": */
+var str = "Hello world, welcome to the universe.";
+var res = str.includes("world");
+// => true
+console.log(res);
+
 charAt()
 charCodeAt()
 
 endsWith()
 fromCharCode()
-includes()
+
 indexOf()
 lastIndexOf()
 localeCompare()
