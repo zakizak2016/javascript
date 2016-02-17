@@ -9,10 +9,20 @@ var str = "Hello World!";
 var res = str.toUpperCase();
 // => HELLO WORLD!
 
+/* toLocaleUpperCase() => Convert the string to uppercase  letters */
+var str = "Hello World!";
+var res = str.toLocaleUpperCase();
+// => HELLO WORLD!
+
 /* toLowerCase() => Convert the string to lowercase letters */
 var str = "Hello World!";
 var res = str.toLowerCase();
 // => hello world! !
+
+/* toLocaleLowerCase() => Convert the string to lowercase letters */
+var str = "Hello World!";
+var res = str.toLocaleLowerCase();
+// => hello world!
 
 
 /* trim() => Remove whitespace from both sides of a string */
@@ -43,8 +53,8 @@ slice()
 startsWith()
 substr()
 substring()
-toLocaleLowerCase()
-toLocaleUpperCase()
+
+
 
 toString()
 
