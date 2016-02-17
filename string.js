@@ -30,9 +30,6 @@ var res = str.toLocaleLowerCase();
 // => hello world!
 
 
-
-
-
 /* MODIFING  -----------------------------------------------*/
 /* concat() split() */
 
@@ -72,7 +69,7 @@ var res = str.slice(1,5);
 
 
 /* SEARCHING -----------------------------------------------*/
-/* search() includes() match() */
+/* search() includes() match() indexOf() */
 
 /* search() => search string index */
 var str = "Visit W3Schools! 3S";
@@ -89,7 +86,10 @@ var str = "The rain in SPAIN stays mainly in the plain";
 var res = str.match(/ain/g);
 // => [ 'ain', 'ain', 'ain' ]
 
-
+/* indexOf() => Search a string for "welcome" */
+var str = "Hello world, welcome to the universe.";
+var res = str.indexOf("welcome");
+// => 13
 
 
 
