@@ -83,7 +83,7 @@ var res = str.substring(1, 3);
 
 
 /* SEARCHING -----------------------------------------------*/
-/* search() includes() match() indexOf() lastIndexOf()  charAt() */
+/* search() includes() match() indexOf() lastIndexOf()  charAt() charCodeAt() */
 
 /* search() => search string index */
 var str = "Visit W3Schools! 3S";
@@ -115,6 +115,10 @@ var str = "HELLO WORLD";
 var res = str.charAt(1);
 // => E
 
+/* charCodeAt() => Return the Unicode of the first character in a string (the Unicode value for "H") */
+var str = "HELLO WORLD";
+var res = str.charCodeAt(0);
+// => 72
 
 /* OTHERS  -----------------------------------------------*/
 
